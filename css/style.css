@@ -55,3 +55,26 @@ height: 500px;
     font-weight: 700;
     color: rgb(15, 15, 15);
 }
+/* see it in action section design */
+.action-sec{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px auto;
+    gap: 150px;
+}
+.action-text-heading{
+    font-size: 25px;
+    margin-bottom: 10px;
+    
+}
+.actiontext-para{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: rgb(41, 40, 40);
+}
+.action-image img{
+ border-radius: 20px;
+ width: 350px;
+ height: 300px;
+}
