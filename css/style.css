@@ -78,3 +78,31 @@ height: 500px;
  width: 350px;
  height: 300px;
 }
+/* productive section css */
+.productive{
+background-color: #E7F7E3;
+border-radius: 20px;
+text-align: center;
+padding: 35px 0;
+margin-bottom: 100px;
+}
+.productive_sec-header{
+font-size: 23px;
+padding-bottom: 30px;
+color: rgb(1, 22, 2);
+}
+.users{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 100px;
+padding-bottom: 10px;
+}
+.user h2{
+font-size: 45px;
+color: #068d35;
+}
+.user  p{
+font-size: 14px;
+color: rgb(41, 40, 40);
+}
