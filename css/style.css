@@ -120,7 +120,7 @@ color: rgb(41, 40, 40);
 }
 .review-section-header{
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     margin-bottom: 30px;
     
 }
@@ -158,4 +158,26 @@ gap: 30px;
 .date{
     font-size: 13px;
     color: rgb(41, 40, 40);
+}
+/* focus-section design start */
+.focus-section{
+   text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 30px 0;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.focus-tittle{
+    font-size: 35px;
+    padding: 20px;
+}
+.focus-descrip{
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.focus-img img{
+    padding: 20px;
+    border-radius: 50px;
 }
