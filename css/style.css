@@ -62,13 +62,17 @@ height: 500px;
     font-weight: 700;
     color: rgb(15, 15, 15);
 }
+main{
+    background-color: #e7f7e370;
+}
 /* see it in action section design */
 .action-sec{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px auto;
+    margin: 0px auto;
     gap: 150px;
+    padding: 60px;
 }
 .action-text-heading{
     font-size: 25px;
@@ -131,7 +135,7 @@ gap: 30px;
 }
 .reviev-container{
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 15px;
     border-radius: 10px;
@@ -163,7 +167,7 @@ gap: 30px;
 .focus-section{
    text-align: center;
     background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
     border: none;
     padding: 30px 0;
     border-radius: 10px;
@@ -180,4 +184,87 @@ gap: 30px;
 .focus-img img{
     padding: 20px;
     border-radius: 50px;
+}
+/* get in touch section  */
+.message-section{
+    
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    gap: 50px;
+    padding: 10px 0 40px ;
+}
+.form-place{
+display: block;  
+font-size: 15px;
+padding: 10px;
+border: none;
+background-color: #fff;
+box-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+border-radius: 10px;
+width: 90%;
+}
+.form-label{
+ display: block;   
+ font-size: 15px;
+ font-weight: 600;
+ padding: 10px 0;
+}
+#message{
+    color: rgb(63, 62, 62);
+}
+.text-section{
+  padding-right:100px ;
+}
+.message-heading{
+    font-size: 80px;
+    color: #000000;
+}
+.messag-button{
+    width: 100%;
+    padding: 12px 0;
+    margin: 15px 0;
+    border: none;
+    cursor: pointer;
+    background-color: #068d35;
+    border-radius: 10px;
+    color: #fff;
+
+}
+.messag-button:hover{
+    background-color: white;
+    border: 1px solid #068d35;
+    color: #068d35;
+    transition: 0.5s;
+
+}
+
+/* footer section start */
+footer{
+    text-align: center;
+    width: 50%;
+    margin: 100px auto;
+}
+.footer-heading{
+    font-size: 50px;
+    color: #028f33;
+    padding: 10px 0;
+}
+.footer-text{
+    font-size: 14px;
+    color: #2c2c2c;
+}
+.footerlink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    gap: 20px;
+    
+
+}
+.footerlink li{
+    list-style: none;
+     color: #2c2c2c;
+     font-size: 14px;
 }
