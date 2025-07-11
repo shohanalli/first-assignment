@@ -39,6 +39,13 @@ height: 500px;
     border-radius:5px;
     cursor: pointer;
 }
+.primary-button:hover{
+    background-color: white;
+    border: 1px solid #068d35;
+    color: #068d35;
+    transition: 0.5s;
+
+}
 .nav-titel{
     font-size: 40px;
 }
@@ -84,7 +91,7 @@ background-color: #E7F7E3;
 border-radius: 20px;
 text-align: center;
 padding: 35px 0;
-margin-bottom: 100px;
+margin-bottom: 10px;
 }
 .productive_sec-header{
 font-size: 23px;
@@ -105,4 +112,50 @@ color: #068d35;
 .user  p{
 font-size: 14px;
 color: rgb(41, 40, 40);
+}
+/* review-section design start */
+.review-sce{
+    margin: 70px auto;
+    
+}
+.review-section-header{
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 30px;
+    
+}
+.reviev-content{
+display: flex;
+gap: 30px;
+   
+}
+.reviev-container{
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+}
+.container-heading{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.container-text{
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.client{
+    display: flex;
+    gap: 10px;
+}
+.client-image img{
+    border-radius: 50%;
+}
+.name{
+    font-size: 15px;
+    font-weight: 600;
+}
+.date{
+    font-size: 13px;
+    color: rgb(41, 40, 40);
 }
